@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__1ae170bba5b5d110279132807f92f09f">92e138fb47b5d110e292f2e7536d43d3</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"4189c9cc1dc94f949fc4f6250f2553dd","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"4189c9cc1dc94f949fc4f6250f2553dd"}],"goals":[{"name":"primary","trigger_id":"4189c9cc1dc94f949fc4f6250f2553dd","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"150b04134757492cb6283ff994a1890c","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"b98c8d45d73545078f16696f84e6513f","name":"End"}],"edges":[{"type":"Edge","source_node_id":"150b04134757492cb6283ff994a1890c","target_node_id":"b98c8d45d73545078f16696f84e6513f","id":"9e94458024c74e4190c008f1c360c5d5"}],"id":"primary"}],"script_variables":[{"type":"String","name":"LiveAgent_application","value":{"type":"String","mode":"string"},"list":false,"id":"d64248e1a3864b6c8f492ab86ab79110","formatType":"text","secure":false,"sensitive":false}],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"f3703c7b47b5d110e292f2e7536d43d3","domain":"global","topic_type":"STANDARD","channels":[],"id":"2aa134fb47b5d110e292f2e7536d43eb","name":"_PRVW__1ae170bba5b5d110279132807f92f09f","key_phrases":["View Open NeedIt Records","NeedIt Request","need something"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"60a074bb47b5d110e292f2e7536d4356"}],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>2aa134fb47b5d110e292f2e7536d43eb</design_topic_id>
+        <name>_PRVW__1ae170bba5b5d110279132807f92f09f</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 10:59:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>52e138fb47b5d110e292f2e7536d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_881767_needit_vi">f3703c7b47b5d110e292f2e7536d43d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">f3703c7b47b5d110e292f2e7536d43d3</sys_scope>
+        <sys_update_name>sys_cb_design_topic_52e138fb47b5d110e292f2e7536d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-14 10:59:23</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
